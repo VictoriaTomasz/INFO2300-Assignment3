@@ -1,0 +1,133 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #49565C;
+    color: snow;
+}
+
+nav {
+    background-color: darkblue;
+    color: snow;
+}
+
+header {
+    color: snow;
+}
+
+.dropdownColours {
+    background-color: #49565C;
+    color: snow;
+}
+
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+.ULButtonOutline {
+    outline: auto;
+    outline-color: snow;
+    background-color: darkblue;
+}
+
+.sliderimg {
+    width: 375px;
+    height: 500px;
+    margin: auto;
+}
+
+.EventPost {
+    outline: auto;
+    outline-color: snow;
+}
+
+
+#GameCarousel {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.gameDiv {
+    border: solid;
+    border-color: snow;
+    background-color: darkblue;
+    margin: auto;
+    width: auto;
+    height: 300px;
+}
+.gameDivImg{
+    width: auto;
+    height:200px;
+}
+
+.gameInfoDiv {
+    background-color: #49565C;
+    color: snow;
+    display: flex;
+    justify-content: space-between;
+}
+.game-details {
+    flex-grow: 1;
+}
+.carousel {
+    height: 500px;
+}
+
+.gameReviewReviewDiv {
+    background-color: darkblue;
+    color: snow;
+    border: solid;
+    border-color: snow;
+}
+.freindsDiv {
+    background-color: darkblue;
+    color: snow;
+    border: solid;
+    border-color: snow;
+}
+
+.loopedReviewDiv {
+    background-color: snow;
+    color: black;
+    border: solid;
+    border-color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}

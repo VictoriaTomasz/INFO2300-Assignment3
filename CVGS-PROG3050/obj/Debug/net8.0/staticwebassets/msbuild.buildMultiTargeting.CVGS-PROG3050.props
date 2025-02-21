@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CVGS-PROG3050.props" />
+</Project>
